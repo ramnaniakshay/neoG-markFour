@@ -1,0 +1,140 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: rgb(255, 255, 255);
+}
+.whiteText{
+    color:#ADEFD1FF
+}
+.textBlue{
+    color: #00203FFF;
+}
+.navBar{
+    background-color: #00203FFF;
+    width: "100%";
+    height: "20%";
+    color: #ADEFD1FF;
+    margin-top: -2%;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 3%;
+}
+.fixedElement{
+    position: fixed;
+}
+.textCenter{
+    text-align: center;
+}
+.textRight{
+    text-align: right;
+    margin-top: -40px;
+    font-size: 20px;
+}
+.flex-container{
+    display: flex;
+    background-color: "#00203FFF";
+    align-items: stretch;
+}
+.flex-container > a{
+    display: flex;
+    text-align: right;
+    align-items: flex-end;
+}
+.noDecoration{
+    text-decoration: none;
+}
+.navLink{
+    margin-right: 20px;
+}
+.navLink:hover{
+    color: white;
+}
+.heroSection{
+    padding: 5%;
+}
+.projectCardOne{
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: #ADEFD1FF;
+    border-radius: 20px;
+    padding: 2%;
+    text-align: center;
+    color: #00203FFF;
+}
+.filledButtonOne{
+    background-color: #00203FFF ;
+    color: #ADEFD1FF;
+    padding: 12px;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+}
+.emptyButtonOne{
+    color: #00203FFF;
+    padding: 1%;
+    border-radius: 10px;
+    border: 2px solid ;
+    font-weight: bold;
+}
+.filledButtonOne:hover{
+    cursor: pointer;
+    background-color: rgb(0, 202, 111);
+}
+.emptyButtonOne:hover{
+    cursor: pointer;
+    background-color:rgb(0, 202, 111) ;
+    color: #ADEFD1FF;
+}
+.projectCardTwo{
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: #00203FFF;
+    border-radius: 20px;
+    padding: 2%;
+    text-align: center;
+    color: #ADEFD1FF;
+}
+.filledButtonTwo{
+    background-color: #ADEFD1FF ;
+    color: #00203FFF;
+    padding: 12px;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+}
+.emptyButtonTwo{
+    color: #ADEFD1FF;
+    padding: 1%;
+    border-radius: 10px;
+    border: 2px solid ;
+    font-weight: bold;
+}
+.filledButtonTwo:hover{
+    cursor: pointer;
+    background-color: rgb(0, 202, 111);
+}
+.emptyButtonTwo:hover{
+    cursor: pointer;
+    background-color:rgb(0, 202, 111) ;
+    color: #ADEFD1FF;
+}
+.footer{
+    background-color: #00203FFF;
+    width: "100%";
+    color: #ADEFD1FF;
+    margin-bottom: -1%;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.centerImage{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    border-radius: 20px;
+}
